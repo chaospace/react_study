@@ -5,11 +5,11 @@ import marked from "marked";
 import "whatwg-fetch";
 import update from "react-addons-update";
 
-//  데이터 가져올 주소 
+//  데이터 가져올 주소
 const API_URL = "http://kanbanapi.pro-react.com";
 const API_HEDER = {
     "Content-Type": "application/json",
-    "Authorization" : "ichaospace"
+    "Authorization" : "ichaospace@nate.comalsefjp"
 }
 
 class BoardContainer extends Component {
